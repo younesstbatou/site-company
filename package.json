@@ -4,14 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "prettier": "prettier --write public/*.html",
+    "post": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "purge": "purgecss -css public/build/tailwind.css -con public/*.html -o public/build/",
+    "start": "live-server public",
+    "build": "yarn prettier && yarn post && yarn purge",
+    "rusty":"yarn rustywind --write public"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.2.1",
+    "live-server": "^1.2.1",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
+    "purgecss": "^4.0.0",
+    "rustywind": "^0.8.0",
     "tailwindcss": "^2.0.2"
   }
 }
