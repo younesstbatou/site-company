@@ -29,3 +29,5 @@ To purge css and make it small
 ```bash
 yarn purge
 ```
+
+The purge somehoww it still doesn't work. Can you investigate? It sort of screws up the HTML.
