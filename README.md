@@ -2,30 +2,30 @@
 
 To install deps
 
-```
+```bash
 yarn
 ```
 
 To build css from tailwind
 
-```
+```bash
 yarn build
 ```
 
 To serve an work
 
-```
+```bash
 yarn start
 ```
 
 To prettify html
 
-```
-yarn purge
+```bash
+yarn pretttier
 ```
 
-To purge css
+To purge css and make it small
 
-```
+```bash
 yarn purge
 ```

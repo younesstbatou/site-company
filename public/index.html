@@ -1,1287 +1,1569 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Company site</title>
-	<link rel="stylesheet" href="build/tailwind.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body class="leading-7">
-<!--Header-->
-<div>
-	<!--top bar header-->
-	<div class="border-b">
-		<div class="h-10 w-5/6 m-auto  flex items-center justify-between text-green-500">
-		<!---->
-		<div class="flex space-x-6 ">
-			<div>
-				<i class="fas fa-phone-alt text-xs mr-1"></i>
-				<p class=" text-gray-500 inline text-sm">+1 (396) 486 4709</p>
-		    </div>
-		    <div>
-				<i class="fas fa-envelope text-xs mr-1"></i>
-				<p class=" text-gray-500 inline text-sm">enquery@domain.com</p>
-		    </div>
-		    <div>
-				<i class="fas fa-map-marker-alt text-xs mr-1"></i>
-				<p class=" text-gray-500 inline text-sm">795 South Park Avenue, CA</p>
-		    </div>
-		</div>
-		
-		<!---->
-		<div class="flex">
-			<div class="flex space-x-2 ">
-				<img class="h-6 w-6 m-auto" src="build/images/usa.svg">
-				<a href="/" class="text-gray-500  m-auto text-sm hover:text-green-500">
-					English
-					<i class="fas fa-chevron-down text-gray-400 m-auto text-xs pt-0.5 hover:text-green-500"></i>
-				</a>
-			</div>
+  <head>
+    <title>Company site</title>
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="leading-7">
+    <!--Header-->
+    <div>
+      <!--top bar header-->
+      <div class="border-b">
+        <div
+          class="h-10 w-5/6 m-auto flex items-center justify-between text-green-500"
+        >
+          <!---->
+          <div class="flex space-x-6">
+            <div>
+              <i class="fas fa-phone-alt text-xs mr-1"></i>
+              <p class="text-gray-500 inline text-sm">+1 (396) 486 4709</p>
+            </div>
+            <div>
+              <i class="fas fa-envelope text-xs mr-1"></i>
+              <p class="text-gray-500 inline text-sm">enquery@domain.com</p>
+            </div>
+            <div>
+              <i class="fas fa-map-marker-alt text-xs mr-1"></i>
+              <p class="text-gray-500 inline text-sm">
+                795 South Park Avenue, CA
+              </p>
+            </div>
+          </div>
 
-			<div class="px-4 m-auto">
-				<span class="pl-0.5 bg-gray-300">
-			    </span>
-			</div>
+          <!---->
+          <div class="flex">
+            <div class="flex space-x-2">
+              <img class="h-6 w-6 m-auto" src="build/images/usa.svg" />
+              <a
+                href="/"
+                class="text-gray-500 m-auto text-sm hover:text-green-500"
+              >
+                English
+                <i
+                  class="fas fa-chevron-down text-gray-400 m-auto text-xs pt-0.5 hover:text-green-500"
+                ></i>
+              </a>
+            </div>
 
-			<div class="flex space-x-2 text-xs">
-				<div class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white">
-					<div class="fab fa-facebook-f"></div>
-				</div>
+            <div class="px-4 m-auto">
+              <span class="pl-0.5 bg-gray-300"> </span>
+            </div>
 
-				<div class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white">
-					<div class="fab fa-twitter"></div>
-				</div>
+            <div class="flex space-x-2 text-xs">
+              <div
+                class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white"
+              >
+                <div class="fab fa-facebook-f"></div>
+              </div>
 
-				<div class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white">
-					<div class="fab fa-linkedin-in "></div>
-				</div>
+              <div
+                class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white"
+              >
+                <div class="fab fa-twitter"></div>
+              </div>
 
-				<div class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white">
-					<div class="fab fa-instagram"></div>
-				</div>
-				
-			</div>
+              <div
+                class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white"
+              >
+                <div class="fab fa-linkedin-in"></div>
+              </div>
 
-			<div class="px-4 m-auto">
-				<span class="pl-0.5 bg-gray-300">
-			    </span>
-			</div>
+              <div
+                class="h-6 w-6 bg-gray-200 m-auto flex justify-center items-center rounded hover:bg-green-500 hover:text-white"
+              >
+                <div class="fab fa-instagram"></div>
+              </div>
+            </div>
 
-			<div class="fas fa-bars m-auto text-xl font-semibold">
-				
-			</div>
-		</div>
-	</div>
-	</div>
-	<!--End top bar-->
+            <div class="px-4 m-auto">
+              <span class="pl-0.5 bg-gray-300"> </span>
+            </div>
 
-	<!--Bottom bar header-->
-	<div class="h-20 w-5/6 m-auto border-b flex justify-between text-sm">
-		<!--logo-->
-		<div class="flex">
-			<img class="m-auto h-14 w-14 bg-green-500 p-2 rounded-lg" src="build/images/logo.png"/>
-			<span class="ml-2 m-auto font-bold border-b-4 border-green-500 text-base">WEB Training</span>
-		</div>
-		
+            <div class="fas fa-bars m-auto text-xl font-semibold"></div>
+          </div>
+        </div>
+      </div>
+      <!--End top bar-->
 
-		<!--navigation-->
-		<div class="my-auto flex font-semibold ">
-			<ul class="flex no-underline list-none space-x-6 m-auto">
+      <!--Bottom bar header-->
+      <div class="h-20 w-5/6 m-auto border-b flex justify-between text-sm">
+        <!--logo-->
+        <div class="flex">
+          <img
+            class="m-auto h-14 w-14 bg-green-500 p-2 rounded-lg"
+            src="build/images/logo.png"
+          />
+          <span
+            class="ml-2 m-auto font-bold border-b-4 border-green-500 text-base"
+            >WEB Training</span
+          >
+        </div>
 
-				<li class="hover:text-green-500 uppercase">
-					<a href="/">home<i class="ml-1 fas fa-chevron-down text-gray-500 text-xs"></i></a>
-				</li>
+        <!--navigation-->
+        <div class="my-auto flex font-semibold">
+          <ul class="flex no-underline list-none space-x-6 m-auto">
+            <li class="hover:text-green-500 uppercase">
+              <a href="/"
+                >home<i
+                  class="ml-1 fas fa-chevron-down text-gray-500 text-xs"
+                ></i
+              ></a>
+            </li>
 
-				<li class="hover:text-green-500 uppercase">
-					<a href="/course-list.html">course list<i class="ml-1 fas fa-chevron-down text-gray-500 text-xs hover:text-green-500"></i></a>
-				</li>
+            <li class="hover:text-green-500 uppercase">
+              <a href="/course-list.html"
+                >course list<i
+                  class="ml-1 fas fa-chevron-down text-gray-500 text-xs hover:text-green-500"
+                ></i
+              ></a>
+            </li>
 
-				<li class="hover:text-green-500 uppercase">
-					<a href="/course-details.html">course details<i class="ml-1 fas fa-chevron-down text-gray-500 text-xs"></i></a>
-				</li>
+            <li class="hover:text-green-500 uppercase">
+              <a href="/course-details.html"
+                >course details<i
+                  class="ml-1 fas fa-chevron-down text-gray-500 text-xs"
+                ></i
+              ></a>
+            </li>
 
-				<li class="hover:text-green-500 uppercase">
-					<a href="/about.html">about us<i class="ml-1 fas fa-chevron-down text-gray-500 text-xs"></i></a>
-				</li>
+            <li class="hover:text-green-500 uppercase">
+              <a href="/about.html"
+                >about us<i
+                  class="ml-1 fas fa-chevron-down text-gray-500 text-xs"
+                ></i
+              ></a>
+            </li>
 
-				<li class="hover:text-green-500 uppercase">
-					<a href="/blog.html">blog<i class="ml-1 fas fa-chevron-down text-gray-500 text-xs"></i></a>
-				</li>
-			</ul>
+            <li class="hover:text-green-500 uppercase">
+              <a href="/blog.html"
+                >blog<i
+                  class="ml-1 fas fa-chevron-down text-gray-500 text-xs"
+                ></i
+              ></a>
+            </li>
+          </ul>
 
-			<div class="m-auto">
-				<i class="fas fa-search px-8  transform rotate-90  text-green-600"></i>
-			</div>
+          <div class="m-auto">
+            <i
+              class="fas fa-search px-8 transform rotate-90 text-green-600"
+            ></i>
+          </div>
 
-			<div class="flex m-auto text-white">
+          <div class="flex m-auto text-white">
+            <i
+              class="h-10 far fa-address-card bg-green-600 text-xl px-3 py-3 flex items-center justify-center rounded-l"
+            ></i>
 
-				<i class="h-10 far fa-address-card bg-green-600 text-xl px-3 py-3 flex items-center justify-center rounded-l"></i>
+            <div
+              class="h-10 p-2 flex items-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 uppercase font-bold rounded-r"
+            >
+              <a href="#">apply now</a>
+            </div>
+          </div>
+        </div>
+        <!--End navigation-->
+      </div>
+      <!--End Bottom bar header-->
+    </div>
+    <!--Header-->
 
-				<div class="h-10 p-2 flex items-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 uppercase font-bold rounded-r">
-					<a href="#">apply now</a>
-				</div>
+    <!--Hero-->
+    <section
+      class="relative text-white bg-center bg-cover text-center"
+      style="
+        background-image: linear-gradient(
+            rgba(24, 43, 73, 0.6),
+            rgba(24, 43, 73, 0.6)
+          ),
+          url('build/images/hero-bg.jpg');
+      "
+    >
+      <div class="w-1/2 m-auto">
+        <div class="py-44 flex flex-col items-center justify-center space-y-6">
+          <div class="text-5xl font-semibold leading-tight">
+            Best University In This Region Join With Us Today.
+          </div>
+          <div class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            tempore laudantium pariatur ipsa delectus odit sequi dolor.
+          </div>
+          <div>
+            <i
+              class="far fa-play-circle text-8xl hover:text-green-400 text-green-500"
+            ></i>
+          </div>
+        </div>
+      </div>
 
-			</div>
+      <img class="absolute bottom-0" src="build/images/r-shape.png" />
+    </section>
+    <!--END Hero-->
 
-		</div>
-		<!--End navigation-->
-		
-	</div>
-	<!--End Bottom bar header-->
-</div>
-<!--Header-->
+    <!--Features section-->
+    <section class="py-16">
+      <div class="w-5/6 m-auto space-y-10">
+        <!--Title-->
+        <h1
+          class="w-2/5 text-center text-2xl font-bold m-auto leading-10 text-gray-800"
+        >
+          Checkout Our Features To Know Why We Are Best In This Business
+        </h1>
 
-<!--Hero-->
-<section class=" relative text-white bg-center bg-cover text-center" style="background-image: linear-gradient(rgba(24, 43, 73, 0.6), rgba(24, 43, 73, 0.6)),url('build/images/hero-bg.jpg');">
+        <!--1/2-->
+        <div
+          class="flex items-center justify-center space-x-10 text-lg text-gray-700"
+        >
+          <div class="shadow-xl flex p-6">
+            <div
+              class="mr-5 h-14 w-16 bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded"
+            >
+              <i class="fas fa-thumbs-up"></i>
+            </div>
+            <div class="">
+              <h2 class="font-bold text-base">POPULAR COURSES</h2>
+              <div class="-mr-16 w-4/5 text-base text-gray-500">
+                Lorem ipsum dolor sit, amet consectetur elit.
+              </div>
+            </div>
+          </div>
 
-	<div class="w-1/2 m-auto">
-		<div class="py-44 flex flex-col items-center justify-center space-y-6">
-			<div class="text-5xl  font-semibold leading-tight">
-			Best University In This Region Join With Us Today.
-			</div>
-			<div class="">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				Laboriosam tempore laudantium pariatur ipsa delectus odit sequi dolor.
-			</div>
-			<div>
-				<i class="far fa-play-circle text-8xl  hover:text-green-400 text-green-500"></i>
-			</div>
-		</div>
-	</div>
+          <div class="shadow-xl flex p-6">
+            <div
+              class="mr-5 h-14 w-16 bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded"
+            >
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <div class="">
+              <h2 class="font-bold text-base">MODERN LIBRARY</h2>
+              <div class="-mr-16 w-4/5 text-base text-gray-500">
+                Lorem ipsum dolor sit, amet consectetur elit.
+              </div>
+            </div>
+          </div>
 
-	<img class="absolute bottom-0" src="build/images/r-shape.png">
-</section>
-<!--END Hero-->
+          <div class="shadow-xl flex p-6">
+            <div
+              class="mr-5 h-14 w-16 bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded"
+            >
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <div class="">
+              <h2 class="font-bold text-base">QUALIFIED TEACHER</h2>
+              <div class="-mr-16 w-4/5 text-base text-gray-500">
+                Lorem ipsum dolor sit, amet consectetur elit.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End 1/2-->
 
-<!--Features section-->
-<section class="py-16">
+        <!--2/2-->
+        <div>
+          <div class="flex items-center justify-center space-x-10 text-lg">
+            <div class="shadow-xl flex p-6">
+              <div
+                class="mr-5 h-14 w-16 bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded"
+              >
+                <i class="fas fa-compact-disc"></i>
+              </div>
+              <div class="">
+                <h2 class="font-bold text-base">UNLIMITED COURSES</h2>
+                <div class="-mr-16 w-4/5 text-base text-gray-500">
+                  Lorem ipsum dolor sit, amet consectetur elit.
+                </div>
+              </div>
+            </div>
 
-	<div class="w-5/6 m-auto space-y-10">
-		<!--Title-->
-		<h1 class="w-2/5 text-center text-2xl font-bold  m-auto leading-10 text-gray-800">
-			Checkout Our Features To Know Why We Are Best In This Business
-		</h1>
+            <div class="shadow-xl flex p-6">
+              <div
+                class="mr-5 h-14 w-16 bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded"
+              >
+                <i class="far fa-map"></i>
+              </div>
+              <div class="">
+                <h2 class="font-bold text-base">MANY LOCATIONS</h2>
+                <div class="-mr-16 w-4/5 text-base text-gray-500">
+                  Lorem ipsum dolor sit, amet consectetur elit.
+                </div>
+              </div>
+            </div>
 
+            <div class="shadow-xl flex p-6">
+              <div
+                class="mr-5 h-14 w-16 bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded"
+              >
+                <i class="fas fa-headset"></i>
+              </div>
+              <div class="">
+                <h2 class="font-bold text-base">ONLINE SUPPORT</h2>
+                <div class="-mr-16 w-4/5 text-base text-gray-500">
+                  Lorem ipsum dolor sit, amet consectetur elit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End 2/2-->
+      </div>
+    </section>
+    <!--End Features section-->
 
-		<!--1/2-->
-		<div class="flex items-center justify-center space-x-10 text-lg  text-gray-700">
-			<div class="shadow-xl flex p-6">
-				<div class="mr-5 h-14 w-16  bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded">
-					<i class="fas fa-thumbs-up "></i>
-				</div>
-				<div class="">
-					<h2 class="font-bold text-base">
-						POPULAR COURSES
-					</h2>
-					<div class="-mr-16 w-4/5 text-base text-gray-500">
-						Lorem ipsum dolor sit, amet consectetur elit.
-					</div>
-				</div>
-			</div>
+    <!--Experience section-->
+    <section class="py-16 bg-blue-50">
+      <div class="w-5/6 m-auto flex space-x-10">
+        <!--1/2-->
+        <div class="flex-1 space-y-5 text-base text-gray-500 leading-7">
+          <h1 class="text-2xl font-bold text-gray-900 leading-10">
+            We Have Experienced Professionals & We Do Our Best To Achieve Your
+            Goal. Your Happiness Is Our First Priority.
+          </h1>
 
-			<div class="shadow-xl flex p-6">
-				<div class="mr-5 h-14 w-16  bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded">
-					<i class="fas fa-book-reader "></i>
-				</div>
-				<div class="">
-					<h2 class="font-bold text-base">
-						MODERN LIBRARY
-					</h2>
-					<div class="-mr-16 w-4/5 text-base text-gray-500">
-						Lorem ipsum dolor sit, amet consectetur elit.
-					</div>
-				</div>
-			</div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            error ut provident vel repellendus nihil atque possimus aliquam,
+            mollitia tempora neque voluptate debitis illum veniam.
+          </p>
 
-			<div class="shadow-xl flex p-6">
-				<div class="mr-5 h-14 w-16  bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded">
-					<i class="fas fa-chalkboard-teacher "></i>
-				</div>
-				<div class="">
-					<h2 class="font-bold text-base">
-						QUALIFIED TEACHER
-					</h2>
-					<div class="-mr-16 w-4/5 text-base text-gray-500">
-						Lorem ipsum dolor sit, amet consectetur elit.
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--End 1/2-->
+          <!--first component-->
+          <div class="flex text-base">
+            <div
+              class="p-4 h-4 w-4 mr-4 border border-green-500 rounded-full flex items-center justify-center"
+            >
+              <div class="far fa-thumbs-up text-green-500 text-base"></div>
+            </div>
+            <div>
+              <h2 class="mb-1 text-lg font-medium text-gray-900">
+                Best Quality Courses
+              </h2>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis error ut provident vel repellendus nihil atque possimus
+                aliquam
+              </p>
+            </div>
+          </div>
 
-		<!--2/2-->
-		<div>
-			<div class="flex items-center justify-center space-x-10 text-lg">
+          <!--second component-->
+          <div class="flex text-base">
+            <div
+              class="p-4 h-4 w-4 mr-4 border border-green-500 rounded-full flex items-center justify-center"
+            >
+              <div class="far fa-thumbs-up text-green-500 text-base"></div>
+            </div>
+            <div>
+              <h2 class="mb-1 text-lg font-medium text-gray-900">
+                Best Quality Courses
+              </h2>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis error ut provident vel repellendus nihil atque possimus
+                aliquam
+              </p>
+            </div>
+          </div>
 
-				<div class="shadow-xl flex p-6">
-					<div class="mr-5 h-14 w-16  bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded">
-						<i class="fas fa-compact-disc"></i>
-					</div>
-					<div class="">
-						<h2 class="font-bold text-base">
-							UNLIMITED COURSES
-						</h2>
-						<div class="-mr-16 w-4/5 text-base text-gray-500">
-							Lorem ipsum dolor sit, amet consectetur elit.
-						</div>
-					</div>
-				</div>
+          <!--third component-->
+          <div class="flex text-base">
+            <div
+              class="p-4 h-4 w-4 mr-4 border border-green-500 rounded-full flex items-center justify-center"
+            >
+              <div class="far fa-thumbs-up text-green-500 text-base"></div>
+            </div>
+            <div>
+              <h2 class="mb-1 text-lg font-medium text-gray-900">
+                Best Quality Courses
+              </h2>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis error ut provident vel repellendus nihil atque possimus
+                aliquam
+              </p>
+            </div>
+          </div>
+        </div>
 
-				<div class="shadow-xl flex p-6">
-					<div class="mr-5 h-14 w-16  bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded">
-						<i class="far fa-map"></i>
-					</div>
-					<div class="">
-						<h2 class="font-bold text-base">
-							MANY LOCATIONS
-						</h2>
-						<div class="-mr-16 w-4/5 text-base text-gray-500">
-							Lorem ipsum dolor sit, amet consectetur elit.
-						</div>
-					</div>
-				</div>
+        <!--2/2-->
+        <div class="relative flex-1">
+          <div class="absolute z-10 w-96 bottom-0 left-0">
+            <img class="rounded-lg shadow-2xl" src="build/images/about-2.jpg" />
+          </div>
+          <div class="absolute w-64 z-1 right-0 top-0">
+            <img class="rounded-lg shadow-2xl" src="build/images/about-3.jpg" />
+          </div>
 
-				<div class="shadow-xl flex p-6">
-					<div class="mr-5 h-14 w-16  bg-green-500 my-auto flex items-center justify-center text-3xl text-white rounded">
-						<i class="fas fa-headset"></i>
-					</div>
-					<div class="">
-						<h2 class="font-bold text-base">
-							ONLINE SUPPORT
-						</h2>
-						<div class="-mr-16 w-4/5 text-base text-gray-500">
-							Lorem ipsum dolor sit, amet consectetur elit.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--End 2/2-->
-	</div>
-</section>
-<!--End Features section-->
+          <div
+            class="text-center absolute bottom-20 z-20 right-28 w-32 h-32 p-1 rounded-full text-xl flex flex-col items-center justify-center text-white bg-gradient-to-br from-green-300 to-green-600"
+          >
+            <div class="text-4xl font-bold">
+              15<span class="font-thin">+</span>
+            </div>
+            <p class="text-base">Yrs Exprience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Experience section-->
 
+    <!--courses section-->
+    <section class="py-16">
+      <div class="w-5/6 m-auto space-y-12">
+        <!--Title-->
+        <h1
+          class="w-2/5 text-center text-2xl font-bold m-auto leading-10 text-gray-800"
+        >
+          We Do What We Love To Do. Find the Best Course To Fit Your Needs.
+        </h1>
 
+        <div class="flex space-x-8">
+          <!--first component-->
+          <div
+            class="flex-1 hover:shadow-xl transition duration-300 border border-gray-5000 rounded-xl"
+          >
+            <!--top-->
+            <div
+              style="background-image: url(build/images/course-1.jpg)"
+              class="flex-1 h-56 bg-gray-400 bg-center bg-cover relative rounded-t-md"
+            >
+              <div
+                class="absolute bottom-4 w-full flex justify-between px-6 font-semibold"
+              >
+                <div class="flex space-x-1">
+                  <img
+                    class="h-11 w-11 rounded-full m-auto"
+                    src="https://randomuser.me/api/portraits/women/2.jpg "
+                  />
+                  <div class="leading-5 px-2 m-auto py-1 bg-white rounded-md">
+                    <h2 class="text-gray-700 text-sm">John Doe</h2>
+                    <h3 class="text-gray-500 text-xs">36 courses</h3>
+                  </div>
+                </div>
+                <div
+                  class="text-white py-1.5 px-2.5 text-lg bg-gray-800 rounded-md m-auto mr-0"
+                >
+                  $20
+                </div>
+              </div>
+            </div>
 
-<!--Experience section-->
-<section class="py-16 bg-blue-50">
+            <!--bottom-->
+            <div class="px-6 py-5 space-y-2 text-gray-400">
+              <a href="/">
+                <h2 class="font-bold text-gray-700 hover:text-green-500">
+                  Php & mySql Programming
+                </h2>
+              </a>
+              <p class="leading-6 border-b pb-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis error ut provident vel repellendus nihil atque
+              </p>
 
- <div class="w-5/6 m-auto flex space-x-10">
- 	<!--1/2-->
- 	<div class="flex-1 space-y-5 text-base text-gray-500 leading-7">
-    	<h1 class="text-2xl font-bold text-gray-900 leading-10">
-    		We Have Experienced Professionals & We Do Our Best To Achieve Your Goal. Your Happiness Is Our First Priority.
-    	</h1>
+              <div class="flex justify-between text-sm">
+                <div>
+                  <i class="far fa-clock text-xs text-green-500"></i>
+                  <div class="inline">120</div>
+                </div>
+                <div>
+                  <div class="inline text-xs text-yellow-500">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="inline class">(4.5)</div>
+                </div>
+                <div>
+                  <i class="fas fa-chair text-xs text-green-500"></i>
+                  <div class="inline">60</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End first component-->
 
-    	<p>
-    		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam, mollitia tempora neque voluptate debitis illum veniam.
-    	</p>
-         
+          <!--second component-->
+          <div
+            class="flex-1 hover:shadow-xl transition duration-300 border border-gray-5000 rounded-xl"
+          >
+            <!--top-->
+            <div
+              style="background-image: url(build/images/course-2.jpg)"
+              class="flex-1 h-56 bg-gray-400 bg-center bg-cover relative rounded-t-md"
+            >
+              <div
+                class="absolute bottom-4 w-full flex justify-between px-6 font-semibold"
+              >
+                <div class="flex space-x-1">
+                  <img
+                    class="h-11 w-11 rounded-full m-auto"
+                    src="https://randomuser.me/api/portraits/women/2.jpg "
+                  />
+                  <div class="leading-5 px-2 m-auto py-1 bg-white rounded-md">
+                    <h2 class="text-gray-700 text-sm">John Doe</h2>
+                    <h3 class="text-gray-500 text-xs">36 courses</h3>
+                  </div>
+                </div>
+                <div
+                  class="text-white py-1.5 px-2.5 text-lg bg-gray-800 rounded-md m-auto mr-0"
+                >
+                  $13
+                </div>
+              </div>
+            </div>
+
+            <!--bottom-->
+            <div class="px-6 py-5 space-y-2 text-gray-400">
+              <a href="/">
+                <h2 class="font-bold text-gray-700 hover:text-green-500">
+                  Php & mySql Programming
+                </h2>
+              </a>
+              <p class="leading-6 border-b pb-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis error ut provident vel repellendus nihil atque
+              </p>
+
+              <div class="flex justify-between text-sm">
+                <div>
+                  <i class="far fa-clock text-xs text-green-500"></i>
+                  <div class="inline">120</div>
+                </div>
+                <div>
+                  <div class="inline text-xs text-yellow-500">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="inline class">(4.5)</div>
+                </div>
+                <div>
+                  <i class="fas fa-chair text-xs text-green-500"></i>
+                  <div class="inline">60</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End second component-->
+
+          <!--third component-->
+          <div
+            class="flex-1 hover:shadow-xl transition duration-300 border border-gray-5000 rounded-xl"
+          >
+            <!--top-->
+            <div
+              style="background-image: url(build/images/course-3.jpg)"
+              class="flex-1 h-56 bg-gray-400 bg-center bg-cover relative rounded-t-md"
+            >
+              <div
+                class="absolute bottom-4 w-full flex justify-between px-6 font-semibold"
+              >
+                <div class="flex space-x-1">
+                  <img
+                    class="h-11 w-11 rounded-full m-auto"
+                    src="https://randomuser.me/api/portraits/women/2.jpg "
+                  />
+                  <div class="leading-5 px-2 m-auto py-1 bg-white rounded-md">
+                    <h2 class="text-gray-700 text-sm">John Doe</h2>
+                    <h3 class="text-gray-500 text-xs">36 courses</h3>
+                  </div>
+                </div>
+                <div
+                  class="text-white py-1.5 px-2.5 text-lg bg-gray-800 rounded-md m-auto mr-0"
+                >
+                  $19
+                </div>
+              </div>
+            </div>
+
+            <!--bottom-->
+            <div class="px-6 py-5 space-y-2 text-gray-400">
+              <a href="/">
+                <h2 class="font-bold text-gray-700 hover:text-green-500">
+                  Php & mySql Programming
+                </h2>
+              </a>
+              <p class="leading-6 border-b pb-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis error ut provident vel repellendus nihil atque
+              </p>
+
+              <div class="flex justify-between text-sm">
+                <div>
+                  <i class="far fa-clock text-xs text-green-500"></i>
+                  <div class="inline">120</div>
+                </div>
+                <div>
+                  <div class="inline text-xs text-yellow-500">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="inline class">(4.5)</div>
+                </div>
+                <div>
+                  <i class="fas fa-chair text-xs text-green-500"></i>
+                  <div class="inline">60</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End third component-->
+        </div>
+
+        <!--carousel dots-->
+        <div class="flex space-x-2 items-center justify-center">
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-green-500"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+        </div>
+      </div>
+    </section>
+    <!--End courses section-->
+
+    <!--Achievement section-->
+    <section
+      class="py-16 text-white bg-cover bg-center"
+      style="
+        background-image: linear-gradient(
+            rgba(24, 43, 73, 0.95),
+            rgba(24, 43, 73, 0.95)
+          ),
+          url('build/images/vd-bg.jpg');
+      "
+    >
+      <div class="w-5/6 space-y-8 m-auto">
+        <!--Title-->
+        <h1
+          class="w-3/6 text-center text-2xl font-bold m-auto leading-10 text-white"
+        >
+          Lets Have A Look At Some Of Achievements For Years We Get.
+        </h1>
+
+        <div class="flex justify-between text-5xl">
+          <div class="flex">
+            <div
+              class="rounded-md border border-green-500 border-dashed text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center"
+            >
+              <i class="fas fa-university"></i>
+            </div>
+            <h2 class="pl-2 font-semibold m-auto">
+              <span class="text-2xl font-semibold m-auto">1170+</span>
+              <p class="text-lg text-gray-200 font-normal">
+                University Courses
+              </p>
+            </h2>
+          </div>
+
+          <div class="flex">
+            <div
+              class="rounded-md border border-green-500 border-dashed text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center"
+            >
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h2 class="pl-2">
+              <span class="text-2xl font-semibold m-auto">2309+</span>
+              <p class="text-lg text-gray-200 font-normal">Total Students</p>
+            </h2>
+          </div>
+
+          <div class="flex">
+            <div
+              class="rounded-md border border-green-500 border-dashed text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center"
+            >
+              <i class="fas fa-award"></i>
+            </div>
+            <h2 class="pl-2 font-semibold m-auto">
+              <span class="text-2xl">590+</span>
+              <p class="text-lg text-gray-200 font-normal">Awards Wins</p>
+            </h2>
+          </div>
+
+          <div class="flex">
+            <div
+              class="rounded-md border border-green-500 border-dashed text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center"
+            >
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <h2 class="pl-2 font-semibold m-auto">
+              <span class="text-2xl">3790+</span>
+              <p class="text-lg text-gray-200 font-normal">Library Books</p>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Achievement section-->
+
+    <!--sign-up form section-->
+    <section class="py-16">
+      <div class="w-5/6 flex m-auto">
+        <div class="flex-shrink w-3/5 m-auto px-4 lg:pr-24 space-y-6">
+          <!--Title-->
+          <h1 class="text-2xl font-bold leading-10 text-gray-800">
+            Get Free Training Course On Web Design For This Week. It's Limited
+            Time Only. Hurry Up To Get This Course.
+          </h1>
+
+          <p class="leading-7 text-base text-gray-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt,
+            molestiae modi quas rerum animi placeat aut iusto quae dolore
+            officiis. Odio totam debitis quos voluptatib dolorem quae sequi ab
+            velit.
+          </p>
+          <div class="flex">
+            <div class="p-8 border-l font-semibold text-gray-600">
+              <span class="block text-5xl font-semibold text-green-500"
+                >351</span
+              >
+              Days
+            </div>
+            <div class="p-8 border-l font-semibold text-gray-600">
+              <span class="block text-5xl font-semibold text-green-500">5</span>
+              Hours
+            </div>
+            <div class="p-8 border-l font-semibold text-gray-600">
+              <span class="block text-5xl font-semibold text-green-500"
+                >21</span
+              >
+              Minutes
+            </div>
+            <div class="p-8 border-l border-r font-semibold text-gray-600">
+              <span class="block text-5xl font-semibold text-green-500"
+                >13</span
+              >
+              Seconds
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-shrink w-2/5">
+          <div
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 167, 106, 0.91),
+                  rgba(0, 167, 106, 0.91)
+                ),
+                url('build/images/vd-bg.jpg');
+            "
+            class="p-10 text-white rounded-md bg-cover bg-center"
+          >
+            <div class="mb-6">
+              <h1 class="text-center text-2xl mb-2 font-semibold">
+                SIGN UP NOW
+              </h1>
+              <h2 class="text-center capitilized font-medium text-base">
+                Get Free Courses
+              </h2>
+            </div>
+
+            <form class="space-y-8 flex flex-col items-center justify-center">
+              <input
+                class="w-full px-4 py-2 rounded-md focus:outline-none"
+                type="text"
+                name="name"
+                placeholder="Enter your Name"
+                required
+              />
+              <input
+                class="w-full px-4 py-2 rounded-lg focus:outline-none"
+                type="text"
+                name="email"
+                placeholder="Enter your Email"
+                required
+              />
+              <input
+                class="w-full px-4 py-2 rounded-lg focus:outline-none"
+                type="text"
+                name="number"
+                placeholder="Enter Phone Number"
+                required
+              />
+
+              <button
+                class="text-center uppercase px-4 py-2 bg-blue-900 transition ease-out duration-300 hover:bg-green-500 focus:outline-none w-full rounded-lg font-semibold text-lg"
+              >
+                send request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End sign-up form section-->
+
+    <!--teams section-->
+    <section class="py-16 bg-blue-50">
+      <div class="w-5/6 m-auto space-y-12">
+        <!--Title-->
+        <h1
+          class="w-7/12 text-center text-2xl font-bold m-auto leading-10 text-gray-800"
+        >
+          We Have Fantustic Team To Help Student And They Are Always Ready.
+        </h1>
+
+        <div class="space-x-10 flex">
+          <!--first component-->
+          <div class="relative flex-1 bg-gray-500 flex justify-center">
+            <div class="">
+              <img class="rounded-md" src="build/images/team-3.jpg" />
+            </div>
+
+            <!---->
+            <div
+              class="absolute bottom-0 -my-12 text-center w-4/5 py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl"
+            >
+              <h2 class="text-2xl font-semibold text-gray-700">
+                Medison White
+              </h2>
+
+              <p class="text-gray-400 text-base font-medium">Teacher</p>
+
+              <div class="flex justify-center space-x-2">
+                <div
+                  class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-facebook-f text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-twitter text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-youtube text-white text-base"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End first component-->
+
+          <!--second component-->
+          <div class="relative flex-1 bg-gray-500 flex justify-center">
+            <div class="">
+              <img class="rounded-md" src="build/images/team-4.jpg" />
+            </div>
+            <div
+              class="absolute bottom-0 -my-12 text-center w-4/5 py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl"
+            >
+              <h2 class="text-2xl font-semibold text-gray-700">Mark Shadow</h2>
+
+              <p class="text-gray-400 text-base font-medium">Teacher</p>
+
+              <div class="flex justify-center space-x-2 m-auto">
+                <div
+                  class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-facebook-f text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-twitter text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-youtube text-white text-base"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End second component-->
+
+          <!--third component-->
+          <div class="relative flex-1 bg-gray-500 flex justify-center">
+            <div class="">
+              <img class="rounded-md" src="build/images/team-5.jpg" />
+            </div>
+            <div
+              class="absolute bottom-0 -my-12 text-center w-4/5 py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl"
+            >
+              <h2 class="text-2xl font-semibold text-gray-700">Katy Perrey</h2>
+
+              <p class="text-gray-400 text-base font-medium">Teacher</p>
+
+              <div class="flex justify-center space-x-2">
+                <div
+                  class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-facebook-f text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-twitter text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-youtube text-white text-base"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End third component-->
+
+          <!--fourth component-->
+          <div class="relative flex-1 bg-gray-500 flex justify-center">
+            <div class="">
+              <img class="rounded-md" src="build/images/team-1.jpg" />
+            </div>
+            <div
+              class="absolute bottom-0 -my-12 text-center w-4/5 py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl"
+            >
+              <h2 class="text-2xl font-semibold text-gray-700">Emily Perrey</h2>
+
+              <p class="text-gray-400 text-base font-medium">Teacher</p>
+
+              <div class="flex justify-center space-x-2">
+                <div
+                  class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-facebook-f text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-twitter text-white text-base"></div>
+                </div>
+
+                <div
+                  class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center"
+                >
+                  <div class="fab fa-youtube text-white text-base"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End fourth component-->
+        </div>
+
+        <!--carousel dots-->
+        <div class="flex space-x-2 items-center justify-center pt-16">
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-green-500"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+        </div>
+      </div>
+    </section>
+    <!--End teams section-->
+
+    <!--Testemonials section-->
+    <section
+      class="py-16 bg-center bg-cover"
+      style="
+        background-image: linear-gradient(
+            rgba(24, 43, 73, 0.95),
+            rgba(24, 43, 73, 0.95)
+          ),
+          url('build/images/vd-bg.jpg');
+      "
+    >
+      <div class="w-5/6 m-auto text-white space-y-12">
+        <!--Title-->
+        <h1
+          class="w-3/6 text-center text-2xl font-bold m-auto leading-10 text-white"
+        >
+          Lets See What Our Valuable Students Think About Us. Their
+          Testimonials.
+        </h1>
+
+        <div class="flex space-x-10 leading-8 bg text-gray-300">
+          <div class="flex-1">
+            <div class="bg-gray-500 bg-opacity-30 rounded-md py-6 px-8">
+              <h2 class="text-xl font-semibold mb-3 text-gray-200">
+                It is great to be a part of this community.
+              </h2>
+              <p class="leading-6 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitation maior. Placeat repellat, et totam optio. Sequi qui
+                laborum ratione cumque tempo totam voluptatum.
+              </p>
+            </div>
+            <div
+              style="
+                width: 0;
+                height: 0;
+                border-right: 1rem solid transparent;
+                border-left: 1rem solid transparent;
+                border-bottom: 1.1rem solid rgba(107, 114, 128, 0.3);
+              "
+              class="ml-16 transform rotate-180 w-0 h-0 border-r-10 border-l-10 border-b-80 solid transparent"
+            ></div>
+            <div class="flex ml-12 mt-5">
+              <img
+                class="rounded-full h-16 w-16"
+                src="build/images/testimonial-1.jpg"
+              />
+              <div class="ml-3 m-auto">
+                <h3 class="text-lg font-semibold text-gray-200">David Show</h3>
+                <p class="text-sm">Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="bg-gray-500 bg-opacity-30 rounded-md py-6 px-8">
+              <h2 class="text-xl font-semibold mb-3 text-gray-200">
+                It is great to be a part of this community.
+              </h2>
+              <p class="leading-6 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitation maior. Placeat repellat, et totam optio. Sequi qui
+                laborum ratione cumque tempo totam voluptatum.
+              </p>
+            </div>
+            <div
+              style="
+                width: 0;
+                height: 0;
+                border-right: 1rem solid transparent;
+                border-left: 1rem solid transparent;
+                border-bottom: 1.1rem solid rgba(107, 114, 128, 0.3);
+              "
+              class="ml-16 transform rotate-180 w-0 h-0 border-r-10 border-l-10 border-b-80 solid transparent"
+            ></div>
+            <div class="flex ml-12 mt-5">
+              <img
+                class="rounded-full h-16 w-16"
+                src="build/images/testimonial-2.jpg"
+              />
+              <div class="ml-4 m-auto">
+                <h3 class="text-lg font-semibold text-gray-200">Tom Parker</h3>
+                <p class="text-sm">Programmer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--carousel dots-->
+        <div class="flex space-x-2 items-center justify-center">
+          <div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
+          <div class="py-1 px-2.5 rounded-2xl bg-green-500"></div>
+        </div>
+      </div>
+    </section>
+    <!--End Testemonials section-->
+
+    <!--Blog section-->
+    <section class="py-16">
+      <div class="mx-32 space-y-6">
+        <h1 class="text-2xl text-center font-bold w-5/12 m-auto mb-12">
+          Lets See What We Can Show To You Our Useful Blog Article Post.
+        </h1>
+
+        <!--1 of 1-->
+        <div class="flex justify-between space-x-8">
+          <!--first component-->
+          <div class="flex-1 h-64">
+            <div class="flex relative">
+              <div class="relative h-64 w-64">
+                <img class="rounded-md" src="build/images/blog-1.jpg" />
+              </div>
+
+              <div
+                class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md"
+              >
+                <div class="flex">
+                  <div
+                    class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center rounded mr-2.5 leading-5"
+                  >
+                    <span>25</span> <span>Mar</span>
+                  </div>
+                  <h2
+                    class="text-lg font-semibold leading-6 hover:text-green-500"
+                  >
+                    <a href="/">
+                      Libero nulla illo quam iure reiciendis maxime.
+                    </a>
+                  </h2>
+                </div>
+                <p class="text-sm border-b border-gray-200 py-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam
+                  excepturi eum necessitatibus.
+                </p>
+                <div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-user text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">John</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">19</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">37</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End first component-->
+
+          <!--second component-->
+          <div class="flex-1 h-64">
+            <div class="flex relative">
+              <div class="relative h-64 w-64">
+                <img class="rounded-md" src="build/images/blog-2.jpg" />
+              </div>
+
+              <div
+                class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md"
+              >
+                <div class="flex">
+                  <div
+                    class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center rounded mr-2.5 leading-5"
+                  >
+                    <span>25</span> <span>Mar</span>
+                  </div>
+                  <h2
+                    class="text-lg font-semibold leading-6 hover:text-green-500"
+                  >
+                    <a href="/">
+                      Libero nulla illo quam iure reiciendis maxime.
+                    </a>
+                  </h2>
+                </div>
+                <p class="text-sm border-b border-gray-200 py-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam
+                  excepturi eum necessitatibus.
+                </p>
+                <div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-user text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">John</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">19</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">37</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End second component-->
+        </div>
+        <!--End 1 of 1-->
+
+        <!--2 of 2-->
+        <div class="flex justify-between space-x-8">
+          <!--first component-->
+          <div class="flex-1 h-64">
+            <div class="flex relative">
+              <div class="relative h-64 w-64">
+                <img class="rounded-md" src="build/images/blog-3.jpg" />
+              </div>
+
+              <div
+                class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md"
+              >
+                <div class="flex">
+                  <div
+                    class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center rounded mr-2.5 leading-5"
+                  >
+                    <span>25</span> <span>Mar</span>
+                  </div>
+                  <h2
+                    class="text-lg font-semibold leading-6 hover:text-green-500"
+                  >
+                    <a href="/">
+                      Libero nulla illo quam iure reiciendis maxime.
+                    </a>
+                  </h2>
+                </div>
+                <p class="text-sm border-b border-gray-200 py-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam
+                  excepturi eum necessitatibus.
+                </p>
+                <div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-user text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">John</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">19</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">37</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End first component-->
+
+          <!--second component-->
+          <div class="flex-1 h-64">
+            <div class="flex relative">
+              <div class="relative h-64 w-64">
+                <img class="rounded-md" src="build/images/blog-4.jpg" />
+              </div>
+
+              <div
+                class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md"
+              >
+                <div class="flex">
+                  <div
+                    class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center rounded mr-2.5 leading-5"
+                  >
+                    <span>25</span> <span>Mar</span>
+                  </div>
+                  <h2
+                    class="text-lg font-semibold leading-6 hover:text-green-500"
+                  >
+                    <a href="/">
+                      Libero nulla illo quam iure reiciendis maxime.
+                    </a>
+                  </h2>
+                </div>
+                <p class="text-sm border-b border-gray-200 py-3 text-gray-500">
+                  Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam
+                  excepturi eum necessitatibus.
+                </p>
+                <div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-user text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">John</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">19</span>
+                  </a>
+
+                  <a href="/" class="inline">
+                    <i
+                      class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"
+                    ></i>
+                    <span class="m-auto hover:text-green-500">37</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End second component-->
+        </div>
+        <!--End 2 of 2-->
+      </div>
+    </section>
+    <!--End Blog section-->
+
+    <!--Galleries section-->
+    <section>
+      <div class="flex">
+        <div class="flex-1 overflow-hidden">
+          <img
+            class="transition duration-300 transform hover:scale-110"
+            src="build/images/imagegallery-01.jpg"
+          />
+        </div>
+        <div class="flex-1 overflow-hidden">
+          <img
+            class="transition duration-300 transform hover:scale-110"
+            src="build/images/imagegallery-02.jpg"
+          />
+        </div>
+        <div class="flex-1 overflow-hidden">
+          <img
+            class="transition duration-300 transform hover:scale-110"
+            src="build/images/imagegallery-03.jpg"
+          />
+        </div>
+        <div class="flex-1 overflow-hidden">
+          <img
+            class="duration-300 transform hover:scale-110"
+            src="build/images/imagegallery-04.jpg"
+          />
+        </div>
+      </div>
+    </section>
+    <!--End Galleries section-->
+
+    <!--Footer-->
+    <footer
+      class="leading-7 text-gray-400 py-16 bg-cover bg-center"
+      style="
+        background-image: linear-gradient(
+            rgba(24, 43, 73, 0.95),
+            rgba(24, 43, 73, 0.95)
+          ),
+          url('build/images/vd-bg.jpg');
+      "
+    >
+      <div class="flex px-32 text-sm">
         <!--first component-->
-    	<div class="flex text-base">
-    		<div class=" p-4 h-4 w-4 mr-4 border border-green-500 rounded-full flex items-center justify-center">
-    			<div class="far fa-thumbs-up text-green-500 text-base "></div>
-    		</div>
-    		<div>
-    			<h2 class="mb-1 text-lg font-medium text-gray-900">
-	    			Best Quality Courses
-	    		</h2>
-	    		<p class="">
-	    			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam
-	    		</p>
-    		</div>
-    	</div>
-
-    	<!--second component-->
-    	<div class="flex text-base">
-    		<div class=" p-4 h-4 w-4 mr-4 border border-green-500 rounded-full flex items-center justify-center">
-    			<div class="far fa-thumbs-up text-green-500 text-base "></div>
-    		</div>
-    		<div>
-    			<h2 class="mb-1 text-lg font-medium text-gray-900">
-	    			Best Quality Courses
-	    		</h2>
-	    		<p class="">
-	    			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam
-	    		</p>
-    		</div>
-    	</div>
-
-    	<!--third component-->
-    	<div class="flex text-base">
-    		<div class=" p-4 h-4 w-4 mr-4 border border-green-500 rounded-full flex items-center justify-center">
-    			<div class="far fa-thumbs-up text-green-500 text-base "></div>
-    		</div>
-    		<div>
-    			<h2 class="mb-1 text-lg font-medium text-gray-900">
-	    			Best Quality Courses
-	    		</h2>
-	    		<p class="">
-	    			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam
-	    		</p>
-    		</div>
-    	</div>
-
-    </div>
-    
-    <!--2/2-->
-    <div class="relative flex-1">
-    	<div class="absolute z-10 w-96 bottom-0 left-0">
-    		<img class="rounded-lg shadow-2xl" src="build/images/about-2.jpg">
-    	</div>
-    	<div class="absolute w-64 z-1 right-0 top-0">
-    		<img class="  rounded-lg shadow-2xl" src="build/images/about-3.jpg">
-    	</div>
-
-    	<div class="text-center absolute bottom-20 z-20 right-28 w-32 h-32 p-1  rounded-full text-xl flex flex-col items-center justify-center text-white bg-gradient-to-br from-green-300  to-green-600">
-
-    		<div class="text-4xl font-bold">15<span class="font-thin">+</span>
-    		</div>
-    		<p class="text-base">Yrs Exprience</p>
-
-    	</div>
-
-    </div>
-
- 
-
- </div>
-
-</section>
-<!--End Experience section-->
-
-<!--courses section-->
-<section class="py-16">
-
-	<div class="w-5/6 m-auto space-y-12">
-		<!--Title-->
-		<h1 class="w-2/5 text-center text-2xl font-bold  m-auto leading-10 text-gray-800">
-			We Do What We Love To Do. Find the Best Course To Fit Your Needs.
-		</h1>
-
-		<div class="flex space-x-8">
-	        <!--first component-->
-			<div class="flex-1 hover:shadow-xl transition duration-300  border border-gray-5000 rounded-xl">
-				<!--top-->
-				<div  style="background-image: url(build/images/course-1.jpg);" class="flex-1 h-56 bg-gray-400 bg-center bg-cover relative rounded-t-md">
-					<div class="absolute bottom-4 w-full flex justify-between px-6 font-semibold">
-						<div class="flex space-x-1">
-							<img class="h-11 w-11 rounded-full m-auto" src="https://randomuser.me/api/portraits/women/2.jpg ">
-							<div class="leading-5 px-2 m-auto py-1 bg-white rounded-md">
-								<h2 class="text-gray-700 text-sm">John Doe</h2>
-								<h3 class="text-gray-500 text-xs">36 courses</h3>
-							</div>
-						</div>
-						<div class="text-white py-1.5 px-2.5 text-lg  bg-gray-800 rounded-md m-auto mr-0">
-							$20
-						</div>
-					</div>
-				</div>
-
-				<!--bottom-->
-				<div class="px-6 py-5 space-y-2 text-gray-400">
-					<a href="/">
-						<h2 class="font-bold text-gray-700 hover:text-green-500">
-							Php & mySql Programming
-						</h2>
-					</a>
-					<p class="leading-6 border-b pb-3">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque
-					</p>
-
-					<div class="flex justify-between text-sm">
-						<div>
-							<i class="far fa-clock text-xs text-green-500"></i>
-							<div class="inline ">120</div>
-						</div>
-						<div>
-							<div class="inline text-xs text-yellow-500">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star-half-alt"></i>
-							</div>
-							<div class="inline class ">(4.5)</div>
-						</div>
-						<div>
-							<i class="fas fa-chair text-xs text-green-500"></i>
-							<div class="inline ">60</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End first component-->
-
-			<!--second component-->
-			<div class="flex-1 hover:shadow-xl transition duration-300 border border-gray-5000 rounded-xl">
-				<!--top-->
-				<div  style="background-image: url(build/images/course-2.jpg);" class="flex-1 h-56 bg-gray-400 bg-center bg-cover relative rounded-t-md">
-					<div class="absolute bottom-4 w-full flex justify-between px-6 font-semibold">
-						<div class="flex space-x-1">
-							<img class="h-11 w-11 rounded-full m-auto" src="https://randomuser.me/api/portraits/women/2.jpg ">
-							<div class="leading-5 px-2 m-auto py-1 bg-white rounded-md">
-								<h2 class="text-gray-700 text-sm">John Doe</h2>
-								<h3 class="text-gray-500 text-xs">36 courses</h3>
-							</div>
-						</div>
-						<div class="text-white py-1.5 px-2.5 text-lg  bg-gray-800 rounded-md m-auto mr-0">
-							$13
-						</div>
-					</div>
-				</div>
-
-				<!--bottom-->
-				<div class="px-6 py-5 space-y-2 text-gray-400">
-					<a href="/">
-						<h2 class="font-bold text-gray-700 hover:text-green-500">
-							Php & mySql Programming
-						</h2>
-					</a>
-					<p class="leading-6 border-b pb-3">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque
-					</p>
-
-					<div class="flex justify-between text-sm">
-						<div>
-							<i class="far fa-clock text-xs text-green-500"></i>
-							<div class="inline ">120</div>
-						</div>
-						<div>
-							<div class="inline text-xs text-yellow-500">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star-half-alt"></i>
-							</div>
-							<div class="inline class ">(4.5)</div>
-						</div>
-						<div>
-							<i class="fas fa-chair text-xs text-green-500"></i>
-							<div class="inline ">60</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End second component-->
-
-			<!--third component-->
-			<div class="flex-1 hover:shadow-xl transition duration-300 border border-gray-5000 rounded-xl">
-				<!--top-->
-				<div  style="background-image: url(build/images/course-3.jpg);" class="flex-1 h-56 bg-gray-400 bg-center bg-cover relative rounded-t-md">
-					<div class="absolute bottom-4 w-full flex justify-between px-6 font-semibold">
-						<div class="flex space-x-1">
-							<img class="h-11 w-11 rounded-full m-auto" src="https://randomuser.me/api/portraits/women/2.jpg ">
-							<div class="leading-5 px-2 m-auto py-1 bg-white rounded-md">
-								<h2 class="text-gray-700 text-sm">John Doe</h2>
-								<h3 class="text-gray-500 text-xs">36 courses</h3>
-							</div>
-						</div>
-						<div class="text-white py-1.5 px-2.5 text-lg  bg-gray-800 rounded-md m-auto mr-0">
-							$19
-						</div>
-					</div>
-				</div>
-
-				<!--bottom-->
-				<div class="px-6 py-5 space-y-2 text-gray-400">
-					<a href="/">
-						<h2 class="font-bold text-gray-700 hover:text-green-500">
-							Php & mySql Programming
-						</h2>
-					</a>
-					<p class="leading-6 border-b pb-3">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque
-					</p>
-
-					<div class="flex justify-between text-sm">
-						<div>
-							<i class="far fa-clock text-xs text-green-500"></i>
-							<div class="inline ">120</div>
-						</div>
-						<div>
-							<div class="inline text-xs text-yellow-500">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star-half-alt"></i>
-							</div>
-							<div class="inline class ">(4.5)</div>
-						</div>
-						<div>
-							<i class="fas fa-chair text-xs text-green-500"></i>
-							<div class="inline ">60</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End third component-->
-
-		</div>
-	    
-
-		<!--carousel dots-->
-		<div class="flex space-x-2 items-center justify-center">
-			<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
-			<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
-			<div class="py-1 px-2.5 rounded-2xl bg-green-500"></div>
-			<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>	
-		</div>
-
-
-	</div>
-
-</section>
-<!--End courses section-->
-
-<!--Achievement section-->
-<section class="py-16 text-white  bg-cover bg-center" style="background-image: linear-gradient(rgba(24, 43, 73, .95), rgba(24, 43, 73, .95)),url('build/images/vd-bg.jpg');">
-	<div class="w-5/6 space-y-8 m-auto">
-
-		<!--Title-->
-		<h1 class="w-3/6 text-center text-2xl font-bold  m-auto leading-10 text-white">
-			Lets Have A Look At Some Of Achievements For Years We Get.
-		</h1>
-
-		<div class="flex justify-between text-5xl">
-
-			<div class="flex">
-				<div class="rounded-md border border-green-500 border-dashed  text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center">
-					<i class="fas fa-university "></i>
-				</div>
-				<h2 class="pl-2 font-semibold m-auto">
-					<h1 class="text-2xl font-semibold m-auto">1170+</span>
-					<p class="text-lg text-gray-200 font-normal">University Courses</p>
-				</h2>
-			</div>
-
-			<div class="flex ">
-				<div class="rounded-md border border-green-500 border-dashed  text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center">
-					<i class="fas fa-graduation-cap "></i>
-				</div>
-				<h2 class="pl-2 ">
-					<h1 class="text-2xl font-semibold m-auto">2309+</span>
-					<p class="text-lg text-gray-200 font-normal">Total Students</p>
-				</h2>
-			</div>
-
-			<div class="flex ">
-				<div class="rounded-md border border-green-500 border-dashed  text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center">
-					<i class="fas fa-award"></i>
-				</div>
-				<h2 class="pl-2 font-semibold m-auto">
-					<span class="text-2xl">590+</span>
-					<p class="text-lg text-gray-200 font-normal">Awards Wins</p>
-				</h2>
-			</div>
-
-			<div class="flex ">
-				<div class="rounded-md border border-green-500 border-dashed  text-green-500 p-4 h-24 w-24 m-auto flex items-center justify-center">
-					<i class="fas fa-book-reader"></i>
-				</div>
-				<h2 class="pl-2 font-semibold m-auto">
-					<span class="text-2xl">3790+</span>
-					<p class="text-lg text-gray-200 font-normal">Library Books</p>
-				</h2>
-			</div>
-
-		</div>
-
-	</div>
-</section>
-<!--End Achievement section-->
-
-<!--sign-up form section-->
-<section class="py-16">
-	<div class="w-5/6 flex m-auto">
-		<div class="flex-shrink w-3/5 m-auto px-4 lg:pr-24 space-y-6">
-
-			<!--Title-->
-			<h1 class=" text-2xl font-bold  leading-10 text-gray-800">
-				Get Free Training Course On Web Design For This Week. It's Limited Time Only. Hurry Up To Get This Course.
-			</h1>
-
-			<p class="leading-7 text-base text-gray-500">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, molestiae modi quas rerum animi placeat aut iusto quae dolore officiis. Odio totam debitis quos voluptatib dolorem quae sequi ab velit.
-			</p>
-			<div class="flex">
-				<div class="p-8 border-l  font-semibold text-gray-600">
-					<span class="block text-5xl font-semibold text-green-500">351</span>
-					Days
-				</div> 
-				<div class="p-8 border-l font-semibold text-gray-600">
-					<span class="block text-5xl font-semibold text-green-500">5</span>
-					Hours
-				</div> 
-				<div class="p-8 border-l font-semibold text-gray-600">
-					<span class="block text-5xl font-semibold text-green-500">21</span>
-					Minutes
-				</div> 
-				<div class="p-8 border-l border-r  font-semibold text-gray-600">
-					<span class="block text-5xl font-semibold text-green-500">13</span>
-					Seconds
-				</div> 
-			</div>
-		</div>
-
-		<div class="flex-shrink w-2/5 ">
-			<div style="background-image: linear-gradient(rgba(0, 167, 106, 0.91), rgba(0, 167, 106, 0.91)),url('build/images/vd-bg.jpg');" class="p-10 text-white rounded-md bg-cover bg-center">
-				<div class="mb-6">
-				<h1 class="text-center text-2xl mb-2 font-semibold">SIGN UP NOW</h1>
-				<h2 class="text-center capitilized font-medium text-base">Get Free Courses</h2>
-			</div>
-
-			<form class=" space-y-8 flex flex-col items-center justify-center ">
-
-				<input class="w-full px-4 py-2 rounded-md focus:outline-none" type="text" name="name" placeholder="Enter your Name" required>
-				<input class="w-full px-4 py-2 rounded-lg focus:outline-none" type="text" name="email" placeholder="Enter your Email" required>
-				<input class="w-full px-4 py-2 rounded-lg focus:outline-none" type="text" name="number" placeholder="Enter Phone Number" required>
-
-				<button class="text-center uppercase px-4 py-2 bg-blue-900 transition ease-out duration-300 hover:bg-green-500 focus:outline-none w-full rounded-lg font-semibold text-lg">send request</button>
-
-			</form>
-			</div>
-		</div>
-	</div>
-</section>
-<!--End sign-up form section-->
-
-<!--teams section-->
-  <section class="py-16 bg-blue-50">
-  	<div class="w-5/6 m-auto space-y-12">
-
-  		<!--Title-->
-		<h1 class="w-7/12 text-center text-2xl font-bold  m-auto leading-10 text-gray-800">
-			We Have Fantustic Team To Help Student And They Are Always Ready.
-		</h1>
-
-
-
-		<div class="space-x-10 flex">
-
-			<!--first component-->
-			<div class=" relative flex-1 bg-gray-500 flex justify-center">
-				<div class="">
-					<img class="rounded-md" src="build/images/team-3.jpg">
-				</div>	
-
-				<!---->
-				<div class="absolute bottom-0 -my-12  text-center w-4/5  py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl" >
-
-					<h2 class="text-2xl font-semibold text-gray-700">Medison White</h2>
-
-					<p class="text-gray-400 text-base font-medium">Teacher</p>
-
-					<div class="flex justify-center space-x-2">
-
-						<div class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center">
-
-			    			<div class="fab fa-facebook-f text-white text-base">
-			    				
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-twitter text-white text-base ">
-			    			
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-youtube text-white text-base ">
-			    				
-			    			</div>
-			    		</div>
-					</div>
-	
-				</div>
-			</div>
-			<!--End first component-->
-
-			<!--second component-->
-			<div class=" relative flex-1 bg-gray-500 flex justify-center">
-				<div class="">
-					<img class="rounded-md" src="build/images/team-4.jpg">
-				</div>	
-				<div class="absolute bottom-0 -my-12  text-center w-4/5  py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl" >
-
-					<h2 class="text-2xl font-semibold text-gray-700">Mark Shadow</h2>
-
-					<p class="text-gray-400 text-base font-medium">Teacher</p>
-
-					
-					<div class="flex justify-center space-x-2 m-auto">
-
-						<div class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center">
-
-			    			<div class="fab fa-facebook-f text-white text-base">
-			    				
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-twitter text-white text-base ">
-			    			
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-youtube text-white text-base ">
-			    				
-			    			</div>
-			    		</div>
-					</div>
-	
-				</div>
-			</div>
-			<!--End second component-->
-
-			<!--third component-->
-			<div class=" relative flex-1 bg-gray-500 flex justify-center">
-				<div class="">
-					<img class="rounded-md" src="build/images/team-5.jpg">
-				</div>	
-				<div class="absolute bottom-0 -my-12  text-center w-4/5  py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl" >
-
-					<h2 class="text-2xl font-semibold text-gray-700">Katy Perrey</h2>
-
-					<p class="text-gray-400 text-base font-medium">Teacher</p>
-
-					<div class="flex justify-center space-x-2">
-
-						<div class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center">
-
-			    			<div class="fab fa-facebook-f text-white text-base">
-			    				
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-twitter text-white text-base ">
-			    			
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-youtube text-white text-base ">
-			    				
-			    			</div>
-			    		</div>
-					</div>
-	
-				</div>
-			</div>
-			<!--End third component-->
-
-			<!--fourth component-->
-			<div class=" relative flex-1 bg-gray-500 flex justify-center">
-				<div class="">
-					<img class="rounded-md" src="build/images/team-1.jpg">
-				</div>	
-				<div class="absolute bottom-0 -my-12  text-center w-4/5  py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl" >
-
-					<h2 class="text-2xl font-semibold text-gray-700">Emily Perrey</h2>
-
-					<p class="text-gray-400 text-base font-medium">Teacher</p>
-
-					
-					<div class="flex justify-center space-x-2">
-
-						<div class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center">
-
-			    			<div class="fab fa-facebook-f text-white text-base">
-			    				
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-twitter text-white text-base ">
-			    			
-			    			</div>
-			    		</div>
-
-			    		<div class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center">
-			    			<div class="fab fa-youtube text-white text-base ">
-			    				
-			    			</div>
-			    		</div>
-					</div>
-	
-				</div>
-			</div>
-			<!--End fourth component-->
-		</div>
-
-
-    <!--carousel dots-->
-	<div class="flex space-x-2 items-center justify-center pt-16">
-		<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
-		<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
-		<div class="py-1 px-2.5 rounded-2xl bg-green-500"></div>
-		<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
-		<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>	
-	</div>
-
-
-  	</div>
-  </section>
-<!--End teams section-->
-
-<!--Testemonials section-->
-<section class="py-16 bg-center  bg-cover" style="background-image: linear-gradient(rgba(24, 43, 73, .95), rgba(24, 43, 73, .95)),url('build/images/vd-bg.jpg');">
-	<div class="w-5/6 m-auto text-white space-y-12">
-
-		<!--Title-->
-		<h1 class="w-3/6 text-center text-2xl font-bold  m-auto leading-10 text-white">
-			Lets See What Our Valuable Students Think About Us. Their Testimonials.
-		</h1>
-
-		<div class="flex space-x-10 leading-8 bg text-gray-300">
-			<div class="flex-1">
-				<div class="bg-gray-500 bg-opacity-30 rounded-md py-6 px-8">
-					<h2 class="text-xl font-semibold mb-3 text-gray-200">It is great to be a part of this community.</h2>
-					<p class="leading-6 text-sm">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.
-					</p>
-				</div>
-				<div style="
-					width: 0;
-				    height: 0;
-				    border-right: 1rem solid transparent;
-				    border-left: 1rem solid transparent;
-				    border-bottom: 1.10rem solid rgba(107, 114, 128, .3)" 
-					class="ml-16 transform rotate-180 w-0 h-0 border-r-10 border-l-10 border-b-80 solid transparent ">
-				</div>
-				<div class="flex ml-12 mt-5 ">
-					<img class="rounded-full h-16 w-16" src="build/images/testimonial-1.jpg">
-					<div class="ml-3 m-auto">
-						<h3 class="text-lg font-semibold text-gray-200">David Show</h3>
-						<p class="text-sm">Developer</p>
-					</div>
-				</div>
-			</div>
-			<div class="flex-1">
-				<div class="bg-gray-500 bg-opacity-30 rounded-md py-6 px-8">
-					<h2 class="text-xl font-semibold mb-3 text-gray-200">It is great to be a part of this community.</h2>
-					<p class="leading-6 text-sm">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.
-					</p>
-				</div>
-				<div style="
-					width: 0;
-				    height: 0;
-				    border-right: 1rem solid transparent;
-				    border-left: 1rem solid transparent;
-				    border-bottom: 1.10rem solid rgba(107, 114, 128, .3)" 
-					class="ml-16 transform rotate-180 w-0 h-0 border-r-10 border-l-10 border-b-80 solid transparent ">
-				</div>
-				<div class="flex ml-12 mt-5 ">
-					<img class="rounded-full h-16 w-16" src="build/images/testimonial-2.jpg">
-					<div class="ml-4 m-auto">
-						<h3 class="text-lg font-semibold text-gray-200">Tom Parker</h3>
-						<p class="text-sm">Programmer</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--carousel dots-->
-		<div class="flex space-x-2 items-center justify-center">
-			<div class="py-1 px-2.5 rounded-2xl bg-gray-400"></div>
-			<div class="py-1 px-2.5 rounded-2xl bg-green-500"></div>
-		</div>
-
-	</div>
-</section>
-<!--End Testemonials section-->
-
-<!--Blog section-->
-<section class="py-16">
-	<div class="mx-32 space-y-6">
-		<h1 class="text-2xl text-center font-bold w-5/12 m-auto mb-12">
-			Lets See What We Can Show To You Our Useful Blog Article Post.
-		</h1>
-
-		<!--1 of 1-->
-		<div class="flex justify-between space-x-8">
-			<!--first component-->
-			<div class="flex-1 h-64 ">
-				<div class="flex relative">
-					<div class="relative h-64 w-64" >
-						<img class="rounded-md" src="build/images/blog-1.jpg">
-					</div>
-				
-					<div class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md">
-						<div class="flex">
-							<div class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center  rounded mr-2.5 leading-5">
-								<span>25</span> <span>Mar</span>
-							</div>
-							<h2 class="text-lg font-semibold leading-6 hover:text-green-500">
-								<a href="/">
-									Libero nulla illo quam iure reiciendis maxime.
-								</a>
-							</h2>
-						</div>
-						<p class="text-sm border-b border-gray-200 py-3 text-gray-500">
-							Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam excepturi eum necessitatibus.
-						</p>
-						<div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
-							<a href="/" class="inline">
-								<i class="far fa-user text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">John</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">19</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">37</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End first component-->
-
-			<!--second component-->
-			<div class="flex-1 h-64 ">
-				<div class="flex relative">
-					<div class="relative h-64 w-64" >
-						<img class="rounded-md" src="build/images/blog-2.jpg">
-					</div>
-				
-					<div class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md">
-						<div class="flex">
-							<div class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center  rounded mr-2.5 leading-5">
-								<span>25</span> <span>Mar</span>
-							</div>
-							<h2 class="text-lg font-semibold leading-6 hover:text-green-500">
-								<a href="/">
-									Libero nulla illo quam iure reiciendis maxime.
-								</a>
-							</h2>
-						</div>
-						<p class="text-sm border-b border-gray-200 py-3 text-gray-500">
-							Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam excepturi eum necessitatibus.
-						</p>
-						<div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
-							<a href="/" class="inline">
-								<i class="far fa-user text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">John</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">19</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">37</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End second component-->
-		</div>
-		<!--End 1 of 1-->
-
-		<!--2 of 2-->
-		 <div class="flex justify-between space-x-8">
-			<!--first component-->
-			<div class="flex-1 h-64 ">
-				<div class="flex relative">
-					<div class="relative h-64 w-64" >
-						<img class="rounded-md" src="build/images/blog-3.jpg">
-					</div>
-				
-					<div class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md">
-						<div class="flex">
-							<div class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center  rounded mr-2.5 leading-5">
-								<span>25</span> <span>Mar</span>
-							</div>
-							<h2 class="text-lg font-semibold leading-6 hover:text-green-500">
-								<a href="/">
-									Libero nulla illo quam iure reiciendis maxime.
-								</a>
-							</h2>
-						</div>
-						<p class="text-sm border-b border-gray-200 py-3 text-gray-500">
-							Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam excepturi eum necessitatibus.
-						</p>
-						<div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
-							<a href="/" class="inline">
-								<i class="far fa-user text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">John</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">19</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">37</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End first component-->
-
-			<!--second component-->
-			<div class="flex-1 h-64 ">
-				<div class="flex relative">
-					<div class="relative h-64 w-64" >
-						<img class="rounded-md" src="build/images/blog-4.jpg">
-					</div>
-				
-					<div class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md">
-						<div class="flex">
-							<div class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center  rounded mr-2.5 leading-5">
-								<span>25</span> <span>Mar</span>
-							</div>
-							<h2 class="text-lg font-semibold leading-6 hover:text-green-500">
-								<a href="/">
-									Libero nulla illo quam iure reiciendis maxime.
-								</a>
-							</h2>
-						</div>
-						<p class="text-sm border-b border-gray-200 py-3 text-gray-500">
-							Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam excepturi eum necessitatibus.
-						</p>
-						<div class="text-sm pt-2 text-gray-500 space-x-3 m-auto">
-							<a href="/" class="inline">
-								<i class="far fa-user text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">John</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-comment-alt text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">19</span>
-							</a>
-
-							<a href="/" class="inline">
-								<i class="far fa-thumbs-up text-xs m-auto mr-1 text-green-500"></i>
-								<span class="m-auto hover:text-green-500">37</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End second component-->
-		</div>	
-		<!--End 2 of 2-->
-
-		
-	</div>
-</section>
-<!--End Blog section-->
-
-
-<!--Galleries section-->
-<section>
-	<div class="flex">
-		<div class="flex-1 overflow-hidden">
-			<img class="transition duration-300 transform hover:scale-110" src="build/images/imagegallery-01.jpg">
-		</div>
-		<div class="flex-1 overflow-hidden">
-			<img class="transition duration-300 transform hover:scale-110" src="build/images/imagegallery-02.jpg">
-		</div>
-		<div class="flex-1 overflow-hidden">
-			<img class="transition duration-300 transform hover:scale-110" src="build/images/imagegallery-03.jpg">
-		</div>
-		<div class="flex-1 overflow-hidden">
-			<img class="duration-300 transform hover:scale-110" src="build/images/imagegallery-04.jpg">
-		</div>
-	</div>
-</section>
-<!--End Galleries section-->
-
-<!--Footer-->
-<footer class="leading-7 text-gray-400 py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(24, 43, 73, 0.95), rgba(24, 43, 73, 0.95)),url('build/images/vd-bg.jpg');">
-	<div class="flex px-32  text-sm">
-
-		<!--first component-->
-		<div class="flex-1 space-y-6 px-2">
-			<div class="flex text-white">
-				<img class="h-14 w-14 bg-green-500 p-2 rounded-lg" src="build/images/logo.png"/>
-				<span class="ml-2 m-auto text-xl font-semibold border-b-4 border-green-500 ">
-					WEB Training
-				</span>
-			</div>
-			<p class="">
-				Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null quos.
-			</p>
-
-			<div class="flex flex-col space-y-4 text-sm">
-				<div class="fas fa-map-marker-alt text-green-500  ">
-					<p class="ml-3  font-thin inline text-gray-400">795 South Park Avenue, CA 94107</p>
-			    </div>
-			    <div class="fas fa-envelope text-green-500 ">
-			    	<p class="ml-3  font-thin inline text-gray-400">enquery@domain.com</p>
-			    </div>
-			    <div class="fas fa-phone-alt text-green-500">
-			    	<p class="ml-3  font-thin inline text-gray-400">795 +1 908 875 7678 Avenue, CA</p>
-			    </div>
-			</div>
-
-		</div>
-		<!--END first component-->
-
-		<!--second component-->
-		<div class="flex-1 ml-16">
-			<div>
-				<h1 class="text-white mb-4 text-xl font-medium mb-9 mt-4">USEFUL LINKS</h1>
-				<ul class="space-y-4">
-					<li class="hover:text-green-500">
-						<a class="" href="/">
-							<i class="fas fa-chevron-right text-xs text-green-500 mr-1"></i>
-							<p class="inline ">General Information</p>
-						</a>
-					</li>
-					<li class="hover:text-green-500">
-						<a class="" href="/">
-							<i class="fas fa-chevron-right text-xs text-green-500 mr-1"></i>
-							<p class="inline ">Help Center</p>
-						</a>
-					</li>
-					<li class="hover:text-green-500">
-						<a class="" href="/">
-							<i class="fas fa-chevron-right text-xs text-green-500 mr-1"></i>
-							<p class="inline ">Our Services</p>
-						</a>
-					</li>
-					<li class="hover:text-green-500">
-						<a class="" href="/">
-							<i class="fas fa-chevron-right text-xs text-green-500 mr-1"></i>
-							<p class="inline ">Privacy Policy</p>
-						</a>
-					</li>
-					<li class="hover:text-green-500">
-						<a class="" href="/">
-							<i class="fas fa-chevron-right text-xs text-green-500 mr-1"></i>
-							<p class="inline ">Online Support</p>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!--END second component-->
-
-
-		<!--third component-->
-		<div class="flex-1">
-			<div>
-				<h1 class="text-white mb-4 text-xl font-medium mb-9 mt-4">TWITTER POST</h1>
-				<ul class="space-y-4">
-					<li class="flex">
-						<i class="fab fa-twitter text-green-500 mr-1 text-2xl m-auto ml-0 mr-2"></i>
-						<div>
-							<a href="/" class="inline hover:text-green-500">Lorem ipsum dolor sit ...</a>
-							<p class="text-xs text-gray-500">Mar 30, 2019</p>
-						</div>
-					</li>
-					<li class="flex">
-						<i class="fab fa-twitter text-green-500 mr-1 text-2xl m-auto ml-0 mr-2"></i>
-						<div>
-							<a href="/" class="inline hover:text-green-500">Lorem ipsum dolor sit ...</a>
-							<p class="text-xs text-gray-500">Mar 30, 2019</p>
-						</div>
-					</li>
-					<li class="flex">
-						<i class="fab fa-twitter text-green-500 mr-1 text-2xl m-auto ml-0 mr-2"></i>
-						<div>
-							<a href="/" class="inline hover:text-green-500">Lorem ipsum dolor sit ...</a>
-							<p class="text-xs text-gray-500">Mar 30, 2019</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!--END third component-->
-
-		<!--fourth component-->
-		<div class="flex-1">
-			<div class="space-y-6">
-				<h1 class="text-white  text-xl font-medium mb-9 mt-4">NEWSLETTER</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectet adipisicing elit.
-				</p>
-
-				<form class="text-center space-y-6">
-					<input class="w-full focus:outline-none py-2.5 px-4 bg-transparent border border-gray-500 rounded-md" type="text" name="email" placeholder="Enter email here">
-					<button class="py-2.5  px-4 rounded-md  w-full text-white bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 font-semibold">Submit</button>
-				</form>
-
-			</div>
-		</div>
-		<!--END fourth component-->
-	</div>
-
-	<div class="px-36 mb-5">
-		<div class="border-b pb-6 border-gray-600">
-			
-		</div>
-	</div>
-
-	<div class="text-center text-center  text-lg font-medium">
-
-		<div class="mb-5 text-sm font-normal">
-			Copyright © 2017 | Designed With <i class="fas fa-heart text-xs text-green-500"></i> by <a class="text-green-500 decoration hover:underline" href="#">YounessTbatou</a>
-		</div>
-
-		<div class="flex px-8 text-center justify-center space-x-3">
-			<div class="p-4 h-4 w-4  bg-blue-600 rounded-full flex items-center justify-center">
-    			<div class="fab fa-facebook-f text-white text-xl">
-
-    			</div>
-    		</div>
-
-    		<div class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center">
-    			<div class="fab fa-twitter text-white text-xl ">
-    			
-    			</div>
-    		</div>
-
-    		<div class="p-4 h-4 w-4 bg-blue-500 rounded-full flex items-center justify-center">
-    			<div class="fab fa-linkedin-in text-white text-xl ">
-    			
-    			</div>
-    		</div>
-
-
-    		<div class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center">
-    			<div class="fab fa-youtube text-white text-xl ">
-    				
-    			</div>
-    		</div>
-    		<div class="p-4 h-4 w-4 bg-pink-500 rounded-full flex items-center justify-center">
-    			<div class="fas fa-globe text-white text-xl ">
-    				
-    			</div>
-    		</div>
-		</div>
-
-	</div>
-</footer>
-<!--End Footer-->
-
-
-<!--Icon for top scroll-->
-<a href="#" class="fixed bottom-10 right-7 rounded-md  text-white text-2xl p-4 h-11 w-11 m-auto flex items-center justify-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500">
-	<i class="fas fa-arrow-up"></i>
-</a>
-
-
-
-</body>
+        <div class="flex-1 space-y-6 px-2">
+          <div class="flex text-white">
+            <img
+              class="h-14 w-14 bg-green-500 p-2 rounded-lg"
+              src="build/images/logo.png"
+            />
+            <span
+              class="ml-2 m-auto text-xl font-semibold border-b-4 border-green-500"
+            >
+              WEB Training
+            </span>
+          </div>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro
+            neque a nam null quos.
+          </p>
+
+          <div class="flex flex-col space-y-4 text-sm">
+            <div class="fas fa-map-marker-alt text-green-500">
+              <p class="ml-3 font-thin inline text-gray-400">
+                795 South Park Avenue, CA 94107
+              </p>
+            </div>
+            <div class="fas fa-envelope text-green-500">
+              <p class="ml-3 font-thin inline text-gray-400">
+                enquery@domain.com
+              </p>
+            </div>
+            <div class="fas fa-phone-alt text-green-500">
+              <p class="ml-3 font-thin inline text-gray-400">
+                795 +1 908 875 7678 Avenue, CA
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--END first component-->
+
+        <!--second component-->
+        <div class="flex-1 ml-16">
+          <div>
+            <h1 class="text-white mb-4 text-xl font-medium mb-9 mt-4">
+              USEFUL LINKS
+            </h1>
+            <ul class="space-y-4">
+              <li class="hover:text-green-500">
+                <a class="" href="/">
+                  <i
+                    class="fas fa-chevron-right text-xs text-green-500 mr-1"
+                  ></i>
+                  <p class="inline">General Information</p>
+                </a>
+              </li>
+              <li class="hover:text-green-500">
+                <a class="" href="/">
+                  <i
+                    class="fas fa-chevron-right text-xs text-green-500 mr-1"
+                  ></i>
+                  <p class="inline">Help Center</p>
+                </a>
+              </li>
+              <li class="hover:text-green-500">
+                <a class="" href="/">
+                  <i
+                    class="fas fa-chevron-right text-xs text-green-500 mr-1"
+                  ></i>
+                  <p class="inline">Our Services</p>
+                </a>
+              </li>
+              <li class="hover:text-green-500">
+                <a class="" href="/">
+                  <i
+                    class="fas fa-chevron-right text-xs text-green-500 mr-1"
+                  ></i>
+                  <p class="inline">Privacy Policy</p>
+                </a>
+              </li>
+              <li class="hover:text-green-500">
+                <a class="" href="/">
+                  <i
+                    class="fas fa-chevron-right text-xs text-green-500 mr-1"
+                  ></i>
+                  <p class="inline">Online Support</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--END second component-->
+
+        <!--third component-->
+        <div class="flex-1">
+          <div>
+            <h1 class="text-white mb-4 text-xl font-medium mb-9 mt-4">
+              TWITTER POST
+            </h1>
+            <ul class="space-y-4">
+              <li class="flex">
+                <i
+                  class="fab fa-twitter text-green-500 mr-1 text-2xl m-auto ml-0 mr-2"
+                ></i>
+                <div>
+                  <a href="/" class="inline hover:text-green-500"
+                    >Lorem ipsum dolor sit ...</a
+                  >
+                  <p class="text-xs text-gray-500">Mar 30, 2019</p>
+                </div>
+              </li>
+              <li class="flex">
+                <i
+                  class="fab fa-twitter text-green-500 mr-1 text-2xl m-auto ml-0 mr-2"
+                ></i>
+                <div>
+                  <a href="/" class="inline hover:text-green-500"
+                    >Lorem ipsum dolor sit ...</a
+                  >
+                  <p class="text-xs text-gray-500">Mar 30, 2019</p>
+                </div>
+              </li>
+              <li class="flex">
+                <i
+                  class="fab fa-twitter text-green-500 mr-1 text-2xl m-auto ml-0 mr-2"
+                ></i>
+                <div>
+                  <a href="/" class="inline hover:text-green-500"
+                    >Lorem ipsum dolor sit ...</a
+                  >
+                  <p class="text-xs text-gray-500">Mar 30, 2019</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--END third component-->
+
+        <!--fourth component-->
+        <div class="flex-1">
+          <div class="space-y-6">
+            <h1 class="text-white text-xl font-medium mb-9 mt-4">NEWSLETTER</h1>
+            <p>Lorem ipsum dolor sit amet, consectet adipisicing elit.</p>
+
+            <form class="text-center space-y-6">
+              <input
+                class="w-full focus:outline-none py-2.5 px-4 bg-transparent border border-gray-500 rounded-md"
+                type="text"
+                name="email"
+                placeholder="Enter email here"
+              />
+              <button
+                class="py-2.5 px-4 rounded-md w-full text-white bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 font-semibold"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        <!--END fourth component-->
+      </div>
+
+      <div class="px-36 mb-5">
+        <div class="border-b pb-6 border-gray-600"></div>
+      </div>
+
+      <div class="text-center text-center text-lg font-medium">
+        <div class="mb-5 text-sm font-normal">
+          Copyright © 2017 | Designed With
+          <i class="fas fa-heart text-xs text-green-500"></i> by
+          <a class="text-green-500 decoration hover:underline" href="#"
+            >YounessTbatou</a
+          >
+        </div>
+
+        <div class="flex px-8 text-center justify-center space-x-3">
+          <div
+            class="p-4 h-4 w-4 bg-blue-600 rounded-full flex items-center justify-center"
+          >
+            <div class="fab fa-facebook-f text-white text-xl"></div>
+          </div>
+
+          <div
+            class="p-4 h-4 w-4 bg-blue-400 rounded-full flex items-center justify-center"
+          >
+            <div class="fab fa-twitter text-white text-xl"></div>
+          </div>
+
+          <div
+            class="p-4 h-4 w-4 bg-blue-500 rounded-full flex items-center justify-center"
+          >
+            <div class="fab fa-linkedin-in text-white text-xl"></div>
+          </div>
+
+          <div
+            class="p-4 h-4 w-4 bg-red-500 rounded-full flex items-center justify-center"
+          >
+            <div class="fab fa-youtube text-white text-xl"></div>
+          </div>
+          <div
+            class="p-4 h-4 w-4 bg-pink-500 rounded-full flex items-center justify-center"
+          >
+            <div class="fas fa-globe text-white text-xl"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer-->
+
+    <!--Icon for top scroll-->
+    <a
+      href="#"
+      class="fixed bottom-10 right-7 rounded-md text-white text-2xl p-4 h-11 w-11 m-auto flex items-center justify-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
 </html>
