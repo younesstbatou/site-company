@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write public/*.html",
     "build": "postcss css/tailwind.css -o public/build/tailwind.css",
-    "purge":"purgecss -css public/build/tailwind.css -con public/*.html -o public/build/",
-    "start":"live-server public"
+    "purge": "purgecss -css public/build/tailwind.css -con public/*.html -o public/build/",
+    "start": "live-server public"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "live-server": "^1.2.1",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
     "purgecss": "^4.0.0",
     "tailwindcss": "^2.0.2"
   }

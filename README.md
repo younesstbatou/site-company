@@ -1,19 +1,27 @@
-README.md
+# Course
+
+To install deps
 
 ```
 yarn
 ```
 
-To build css
+To build css from tailwind
 
 ```
 yarn build
 ```
 
-To serve
+To serve an work
 
 ```
 yarn start
+```
+
+To prettify html
+
+```
+yarn purge
 ```
 
 To purge css
