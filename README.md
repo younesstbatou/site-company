@@ -24,6 +24,13 @@ To prettify html
 yarn pretttier
 ```
 
+Sort the classes
+
+```bash
+yarn rusty
+```
+
+
 To purge css and make it small
 
 ```bash
