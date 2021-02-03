@@ -1,0 +1,12 @@
+node_modules/
+css/
+.gitignore
+debug.log
+package.json
+package-lock.json
+postcss.config.js
+README.md
+tailwind.config.js
+public/build/
+.prettierrc.json
+
