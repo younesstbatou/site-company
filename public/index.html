@@ -40,7 +40,7 @@
     <div data-component="header">
       <!--top bar header-->
       <div class="border-b">
-        <div data-component="topBarHeader"
+        <div data-component="headerTop"
           class="h-10 w-5/6 m-auto flex items-center justify-between text-green-500"
         >
           <!---->
@@ -80,8 +80,8 @@
               <span class="pl-0.5 bg-gray-300"> </span>
             </div>
 
-            <div class="flex space-x-2 text-xs">
-              <div data-component="socialicons"
+            <div class="flex space-x-2 text-xs" >
+              <div 
                 class="flex justify-center items-center m-auto w-6 h-6 bg-gray-200 rounded hover:bg-green-500 hover:text-white"
               >
                 <div class="fab fa-facebook-f"></div>
@@ -117,7 +117,7 @@
       <!--End top bar-->
 
       <!--Bottom bar header-->
-      <div data-component="bottomBarHeader" class="h-20 w-5/6 m-auto border-b flex justify-between text-sm">
+      <div data-component="headerBottom" class="h-20 w-5/6 m-auto border-b flex justify-between text-sm">
         <!--logo-->
         <div class="flex">
           <img
@@ -133,7 +133,7 @@
         <!--navigation-->
         <div class="flex my-auto font-semibold">
           <ul class="flex m-auto space-x-6 list-none no-underline">
-            <li class="uppercase hover:text-green-500" data-component="nav">
+            <li class="uppercase hover:text-green-500">
               <a href="/"
                 >home<i
                   class="ml-1 text-xs text-gray-500 fas fa-chevron-down"
@@ -231,10 +231,10 @@
     <!--END Hero-->
 
     <!--Features section-->
-    <section class="py-16">
+    <section class="py-16" data-component="FeaturesSection">
       <div class="w-5/6 m-auto space-y-10">
         <!--Title-->
-        <h1 data-component="title"
+        <h1 data-component="mainTitle"
           class="w-2/5 text-center text-2xl font-bold m-auto leading-10 text-gray-800"
         >
           Checkout Our Features To Know Why We Are Best In This Business
@@ -245,14 +245,14 @@
           class="flex justify-center items-center space-x-10 text-lg text-gray-700"
         >
           <div class="flex p-6 shadow-xl"  data-component="ourFeatures">
-            <div data-component="ourFeaturesIcon"
+            <div
               class="flex justify-center items-center my-auto mr-5 w-16 h-14 text-3xl text-white bg-green-500 rounded"
             >
               <i class="fas fa-thumbs-up"></i>
             </div>
-            <div class="">
-              <h2 class="text-base font-bold" data-component="ourFeaturesTitle">POPULAR COURSES</h2>
-              <div class="-mr-16 w-4/5 text-base text-gray-500" data-component="ourFeaturesContent">
+            <div>
+              <h2 class="text-base font-bold">POPULAR COURSES</h2>
+              <div class="-mr-16 w-4/5 text-base text-gray-500" >
                 Lorem ipsum dolor sit, amet consectetur elit.
               </div>
             </div>
@@ -340,7 +340,7 @@
     <!--End Features section-->
 
     <!--Experience section-->
-    <section class="py-16 bg-blue-50">
+    <section class="py-16 bg-blue-50" data-component="ExperienceSection">
       <div class="w-5/6 m-auto flex space-x-10">
         <!--1/2-->
         <div class="flex-1 space-y-5 text-base leading-7 text-gray-500">
@@ -356,17 +356,17 @@
           </p>
 
           <!--first component-->
-          <div class="flex text-base" data-component="experience">
-            <div data-component="experienceIcon"
+          <div class="flex text-base" data-component="experienceList">
+            <div
               class="flex justify-center items-center p-4 mr-4 w-4 h-4 rounded-full border border-green-500"
             >
               <div class="text-base text-green-500 far fa-thumbs-up"></div>
             </div>
             <div>
-              <h2 class="mb-1 text-lg font-medium text-gray-900" data-component="experienceTitle">
+              <h2 class="mb-1 text-lg font-medium text-gray-900">
                 Best Quality Courses
               </h2>
-              <p class="" data-component="experienceSubtitle">
+              <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Corporis error ut provident vel repellendus nihil atque possimus
                 aliquam
@@ -436,7 +436,7 @@
     <!--End Experience section-->
 
     <!--courses section-->
-    <section class="py-16">
+    <section class="py-16" data-component="CoursesSection">
       <div class="w-5/6 m-auto space-y-12">
         <!--Title-->
         <h1
@@ -451,24 +451,24 @@
             class="flex-1 rounded-xl border transition duration-300 hover:shadow-xl border-gray-5000"
           >
             <!--top-->
-            <div
+            <div 
               style="background-image: url(build/images/course-1.jpg)"
               class="relative flex-1 h-56 bg-gray-400 bg-center bg-cover rounded-t-md"
             >
               <div
                 class="flex absolute bottom-4 justify-between px-6 w-full font-semibold"
               >
-                <div class="flex space-x-1" data-component="courseCardAuthorBox">
-                  <img data-component="Avatar"
+                <div class="flex space-x-1" data-component="courseCardBox">
+                  <img
                     class="m-auto w-11 h-11 rounded-full"
                     src="https://randomuser.me/api/portraits/women/2.jpg "
                   />
-                  <div class="py-1 px-2 m-auto leading-5 bg-white rounded-md" data-component="courseCardAuthor">
+                  <div class="py-1 px-2 m-auto leading-5 bg-white rounded-md">
                     <h2 class="text-sm text-gray-700">John Doe</h2>
                     <h3 class="text-xs text-gray-500">36 courses</h3>
                   </div>
                 </div>
-                <div data-component="courseCardPrice"
+                <div
                   class="text-white py-1.5 px-2.5 text-lg bg-gray-800 rounded-md m-auto mr-0"
                 >
                   $20
@@ -478,23 +478,23 @@
 
             <!--bottom-->
             <div class="py-5 px-6 space-y-2 text-gray-400">
-              <a href="/" data-component="courseCardTitle">
+              <a href="/">
                 <h2 class="font-bold text-gray-700 hover:text-green-500">
                   Php & mySql Programming
                 </h2>
               </a>
-              <p class="pb-3 leading-6 border-b" data-component="courseCardContent">
+              <p class="pb-3 leading-6 border-b">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Corporis error ut provident vel repellendus nihil atque
               </p>
 
-              <div class="flex justify-between text-sm">
-                <div data-component="courseCardHours">
+              <div class="flex justify-between text-sm" data-component="courseCardOffer">
+                <div >
                   <i class="text-xs text-green-500 far fa-clock"></i>
                   <div class="inline">120</div>
                 </div>
                 <div>
-                  <div class="inline text-xs text-yellow-500" data-component="courseCardStars">
+                  <div class="inline text-xs text-yellow-500" >
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -503,7 +503,7 @@
                   </div>
                   <div class="inline class">(4.5)</div>
                 </div>
-                <div data-component="courseCardChairs">
+                <div >
                   <i class="text-xs text-green-500 fas fa-chair"></i>
                   <div class="inline">60</div>
                 </div>
@@ -657,7 +657,7 @@
     <!--End courses section-->
 
     <!--Achievement section-->
-    <section
+    <section data-component="achievementSection"
       class="py-16 text-white bg-center bg-cover"
       style="
         background-image: linear-gradient(
@@ -682,9 +682,9 @@
             >
               <i class="fas fa-university"></i>
             </div>
-            <h2 class="pl-2 m-auto font-semibold" data-component="achievementContent">
-              <span class="m-auto text-2xl font-semibold" data-component="achievementTitle">1170+</span>
-              <p class="text-lg font-normal text-gray-200" data-component="achievementSubtitle">
+            <h2 class="pl-2 m-auto font-semibold">
+              <span class="m-auto text-2xl font-semibold">1170+</span>
+              <p class="text-lg font-normal text-gray-200">
                 University Courses
               </p>
             </h2>
@@ -731,7 +731,7 @@
     <!--End Achievement section-->
 
     <!--sign-up form section-->
-    <section class="py-16">
+    <section class="py-16" data-component="signupSection">
       <div class="w-5/6 flex m-auto">
         <div class="flex-shrink w-3/5 m-auto px-4 lg:pr-24 space-y-6">
           <!--Title-->
@@ -747,7 +747,7 @@
             velit.
           </p>
           <div class="flex">
-            <div class="p-8 font-semibold text-gray-600 border-l" data-component="limitedTime">
+            <div class="p-8 font-semibold text-gray-600 border-l" data-component="PTF">
               <span class="block text-5xl font-semibold text-green-500"
                 >351</span
               >
@@ -772,7 +772,7 @@
           </div>
         </div>
 
-        <div class="flex-shrink w-2/5">
+        <div class="flex-shrink w-2/5" data-component="signUp">
           <div
             style="
               background-image: linear-gradient(
@@ -792,8 +792,8 @@
               </h2>
             </div>
 
-            <form class="flex flex-col justify-center items-center space-y-8" data-component="signUp">
-              <input data-component="signUpInput"
+            <form class="flex flex-col justify-center items-center space-y-8">
+              <input
                 class="py-2 px-4 w-full rounded-md focus:outline-none"
                 type="text"
                 name="name"
@@ -828,7 +828,7 @@
     <!--End sign-up form section-->
 
     <!--teams section-->
-    <section class="py-16 bg-blue-50">
+    <section class="py-16 bg-blue-50" data-component="teamSection">
       <div class="w-5/6 m-auto space-y-12">
         <!--Title-->
         <h1
@@ -839,21 +839,21 @@
 
         <div class="flex space-x-10">
           <!--first component-->
-          <div class="flex relative flex-1 justify-center bg-gray-500" data-component="teacherCard">
+          <div class="flex relative flex-1 justify-center bg-gray-500" data-component="instructorCard">
             <div class="">
               <img class="rounded-md" src="build/images/team-3.jpg" />
             </div>
 
             <!---->
             <div class="absolute bottom-0 -my-12 w-4/5">
-              <div  class="text-center  py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl" data-component="teacherCardBox">
-                <h2 class="text-2xl font-semibold text-gray-700" data-component="teacherCardName">
+              <div  class="text-center  py-3 px-4 bg-white space-y-1 rounded-md shadow-2xl" data-component="instructorBox">
+                <h2 class="text-2xl font-semibold text-gray-700">
                 Medison White
               </h2>
 
               <p class="text-base font-medium text-gray-400">Teacher</p>
 
-              <div class="flex justify-center space-x-2" data-component="teacherCardSocial">
+              <div class="flex justify-center space-x-2">
                 <div
                   class="flex justify-center items-center p-4 w-4 h-4 bg-blue-600 rounded-full"
                 >
@@ -996,7 +996,7 @@
     <!--End teams section-->
 
     <!--Testemonials section-->
-    <section
+    <section data-component="testemonialSection"
       class="py-16 bg-center bg-cover"
       style="
         background-image: linear-gradient(
@@ -1019,11 +1019,11 @@
         <div class="flex space-x-10 leading-8 text-gray-300 bg">
           <!--first component-->
           <div class="flex-1" data-component="testimonial">
-            <div class="py-6 px-8 bg-gray-500 bg-opacity-30 rounded-md">
-              <h2 class="mb-3 text-xl font-semibold text-gray-200" data-component="testimonialTitle">
+            <div class="py-6 px-8 bg-gray-500 bg-opacity-30 rounded-md" data-component="testimonialContent">
+              <h2 class="mb-3 text-xl font-semibold text-gray-200">
                 It is great to be a part of this community.
               </h2>
-              <p class="text-sm leading-6" data-component="testimonialPar">
+              <p class="text-sm leading-6">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Exercitation maior. Placeat repellat, et totam optio. Sequi qui
                 laborum ratione cumque tempo totam voluptatum.
@@ -1039,14 +1039,14 @@
               "
               class="ml-16 w-0 h-0 transform rotate-180 border-r-10 border-l-10 border-b-80 solid transparent"
             ></div>
-            <div class="flex mt-5 ml-12" data-component="testimonialTeamBox">
-              <img data-component="Avatar"
+            <div class="flex mt-5 ml-12" data-component="testimonialGeeks">
+              <img
                 class="w-16 h-16 rounded-full"
                 src="build/images/testimonial-1.jpg"
               />
-              <div class="m-auto ml-3" data-component="testimonialContent">
-                <h3 class="text-lg font-semibold text-gray-200" data-component="testimonialName">David Show</h3>
-                <p class="text-sm" data-component="testimonialJob">Developer</p>
+              <div class="m-auto ml-3">
+                <h3 class="text-lg font-semibold text-gray-200">David Show</h3>
+                <p class="text-sm">Developer</p>
               </div>
             </div>
           </div>
@@ -1094,7 +1094,7 @@
     <!--End Testemonials section-->
 
     <!--Blog section-->
-    <section class="py-16">
+    <section class="py-16" data-component="blogpostSection">
       <div class="mx-32 space-y-6">
         <h1 class="text-2xl text-center font-bold w-5/12 m-auto mb-12">
           Lets See What We Can Show To You Our Useful Blog Article Post.
@@ -1105,20 +1105,20 @@
           <!--first component-->
           <div class="flex-1 h-64" data-component="blogPost">
             <div class="flex relative">
-              <div class="relative w-64 h-64" data-component="blogPostIMG">
+              <div class="relative w-64 h-64">
                 <img class="rounded-md" src="build/images/blog-1.jpg" />
               </div>
 
-              <div data-component="blogPostBoxContent"
+              <div data-component="blogPostBox"
                 class="w-7/12 m-auto top-1/2 transform -translate-y-1/2 right-0 flex-1 absolute w-72 p-4 shadow-md bg-white rounded-md"
               >
                 <div class="flex">
-                  <div data-component="blogPostDate"
+                  <div
                     class="py-2 px-2.5 bg-gradient-to-r from-green-400 to-green-600 text-white text-md font-semibold text-center rounded mr-2.5 leading-5"
                   >
                     <span>25</span> <span>Mar</span>
                   </div>
-                  <h2 data-component="blogPostTitle"
+                  <h2
                     class="text-lg font-semibold leading-6 hover:text-green-500"
                   >
                     <a href="/">
@@ -1126,7 +1126,7 @@
                     </a>
                   </h2>
                 </div>
-                <p data-component="blogPostPar" class="py-3 text-sm text-gray-500 border-b border-gray-200">
+                <p  class="py-3 text-sm text-gray-500 border-b border-gray-200">
                   Lorem ipsum dolor sit amet consecte adipisicing elit. Quisquam
                   excepturi eum necessitatibus.
                 </p>
@@ -1332,9 +1332,9 @@
     <!--End Blog section-->
 
     <!--Galleries section-->
-    <section>
+    <section data-component="gallerySection">
       <div class="flex">
-        <div class="overflow-hidden flex-1" data-component="gallery">
+        <div class="overflow-hidden flex-1" >
           <img
             class="transition duration-300 transform hover:scale-110"
             src="build/images/imagegallery-01.jpg"
@@ -1363,7 +1363,7 @@
     <!--End Galleries section-->
 
     <!--Footer-->
-    <footer data-component="Footer" class="py-16 leading-7 text-gray-400 bg-center bg-cover"
+    <footer data-component="footerSection" class="py-16 leading-7 text-gray-400 bg-center bg-cover"
       style="
         background-image: linear-gradient(
             rgba(24, 43, 73, 0.95),
@@ -1414,11 +1414,11 @@
         <!--second component-->
         <div class="flex-1 ml-16">
           <div>
-            <h1 data-component="footerTitle" class="mt-4 mb-4 mb-9 text-xl font-medium text-white">
+            <h1 class="mt-4 mb-4 mb-9 text-xl font-medium text-white">
               USEFUL LINKS
             </h1>
             <ul class="space-y-4">
-              <li data-component="navList" class="hover:text-green-500">
+              <li  class="hover:text-green-500">
                 <a class="" href="/">
                   <i
                     class="mr-1 text-xs text-green-500 fas fa-chevron-right"
@@ -1470,7 +1470,7 @@
               TWITTER POST
             </h1>
             <ul class="space-y-4">
-              <li class="flex" data-component="navBlog">
+              <li class="flex" >
                 <i
                   class="m-auto mr-1 mr-2 ml-0 text-2xl text-green-500 fab fa-twitter"
                 ></i>
