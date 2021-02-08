@@ -1,4 +1,9 @@
 /* css/tailwind.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-title{
+    @apply text-center text-2xl font-bold m-auto leading-10 text-gray-800;
+}

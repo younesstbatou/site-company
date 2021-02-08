@@ -31169,6 +31169,17 @@ video {
           animation: bounce 1s infinite;
 }
 
+.main-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 2.5rem;
+  margin: auto;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
